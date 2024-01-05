@@ -10,7 +10,7 @@ Instanz = Regression([100.1,102,105,110.3],[4,5.4,5.6,8],"Titelx","Titely")
 Dem Instanz von Regression werden 4 Parameter eingegeben, nämlich Stichprobe1, Stichprobe2, Titel von X und Titel von Y. Man gibt hier die Stichprobe in Form von Liste und die Titeln nämlich in Form von String, nachdem diese gemacht wurde, dann können folgende Funktionen benutzt werden:
 
 ```
-1- get_residuen() # welche die Quadraten von Abstände zwischen Vermutung und Realität nacheinander summiert und zurückgibt.
+1- get_residuen() # welche die Abstände zwischen Vermutung und Realität zurückgibt.
 2- get_wert(x) # das gibt dem man den Funktionswert von x an.
 3- zeichnen() # in der Grafik zeigen.
 ```

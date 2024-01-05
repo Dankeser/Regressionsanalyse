@@ -44,7 +44,7 @@ class Regression:
     
     # Quadrate von Abstände zwischen Behauptung und Realität nacheinander addieren.
     def get_residuen(self):
-        return sum([math.pow(self.get_wert(i)-i,2) for i in self.y])
+        return [math.pow(self.get_wert(self.x[i])-self.y[i],2) for i in range(len(self.y))]
     
     # Alles Graphisch darstellen, man müsste am Ende diese Funkiton benutzen, um es zu visualisieren.
     def zeichnen(self):

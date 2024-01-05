@@ -42,7 +42,7 @@ class Regression:
     def get_wert(self,parameterx):
         return self.b0+(self.b1*parameterx)
     
-    # Quadrate von Abstände zwischen Behauptung und Realität nacheinander addieren.
+    # Abstände zwischen Behauptung und Realität
     def get_residuen(self):
         return [math.pow(self.get_wert(self.x[i])-self.y[i],2) for i in range(len(self.y))]
     
